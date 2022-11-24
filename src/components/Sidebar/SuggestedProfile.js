@@ -30,7 +30,7 @@ const SuggestedProfile = ({ profileDocId, username, profileId, userId, loggedInU
             </div>
             <div>
                 <button
-                    className="my_text_button"
+                    className="my_text_button bg-black"
                     type="button"
                     onClick={handleFollowUser}
                 >

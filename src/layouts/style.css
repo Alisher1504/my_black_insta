@@ -191,7 +191,6 @@ body{
 }
 
 .my_text_button{
-    background-color: black;
     padding: 5px 10px;
     color: white;
     border-radius: 8px;
@@ -224,9 +223,6 @@ body{
     box-shadow: 0px 0px 20px 0px white;
 }
 
-.settings_upload{
- 
-}
 
 .settings_upload_glavni {
     height: 100vh;
