@@ -31,15 +31,10 @@ const ForgotPassword = () => {
       <div className="login_glava">
         <div className="login_glava1">
           <div className="flex justify-center mb-8">
-            <img
-              className="h-[51px]"
-              src="https://www.instagram.com/static/images/web/logged_out_wordmark-2x.png/d2529dbef8ed.png"
-              alt=""
-            />
+            <div className="name_login mb-10">
+              <h1>My Black Instagram</h1>
+            </div>
           </div>
-          {/* <div className="flex items-center my-3 w-full">
-                <div className="border-b-[1px] border-gray-300 h-0 w-full"></div>
-              </div> */}
           {error && <p className="mb-4 text-xs text-red-500">{error}</p>}
           <form onSubmit={handleSubmit} className="" method="post">
             <div>
@@ -75,10 +70,7 @@ const ForgotPassword = () => {
 
             <div className="flex justify-center items-center flex-col w-full mt-10">
               <p className="text-sm">
-                <Link
-                  to={LOGIN}
-                  className="sign_up"
-                >
+                <Link to={LOGIN} className="sign_up">
                   Log in
                 </Link>
               </p>
