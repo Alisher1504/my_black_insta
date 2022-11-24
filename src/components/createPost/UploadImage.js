@@ -13,10 +13,10 @@ const UploadImage = ({ imageInput, handleUpload}) => {
                     />
                     <button
                         type="button"
-                        className="rand_bg_button"
+                        className="rand_bg_button bg-white"
                         onClick={() => imageInput.current.click()}
                     >
-                        upload video and images
+                        upload images
                     </button>
                 </div>
             </div>
