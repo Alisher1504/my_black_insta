@@ -69,7 +69,7 @@ const NavBar = () => {
                     </div>
                     {focused && (
                         <div
-                            className="bg-white my-bg mt-8"
+                            className="my-bg mt-8"
                             ref={searchRef}
                         >
                             <SearchBar searchInput={search}/>
