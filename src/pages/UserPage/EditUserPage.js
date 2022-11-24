@@ -99,7 +99,7 @@ const EditUserPage = () => {
           openInput={openInput}
           userId={user.uid}
         />
-        <div className="border-2xl shadow-2xl flex mt-60  flex-col p-4 rounded togri setting_bg">
+        <div className="p-4 setting_bg">
           <div className="flex items-center mt-4 mb-4 justify-end">
             <div className="flex-auto flex w-32 cursor-pointer flex justify-end">
               <div className="w-14 h-14 flex mr-2">
