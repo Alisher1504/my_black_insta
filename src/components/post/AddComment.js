@@ -92,7 +92,7 @@ const AddComment = ({ docId, comments, setComments, commentInput }) => {
                 />
                 <button
                     type="submit"
-                    className="comment_post_1"
+                    className="bg-black comment_post_1"
                 >
                     Post
                 </button>
